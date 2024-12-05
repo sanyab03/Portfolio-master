@@ -20,32 +20,31 @@ function Home2() {
             </h1>
             <p className="home-about-body">
              
-            I am deeply passionate about programming and the endless possibilities it offers.
+            I am deeply passionate about programming and the boundless opportunities it unlocks.
               <br />
-              <br />I have honed my skills in
+              <br />With expertise in
               <i>
-                <b className="purple">CSS, JavaScript, and UI/UX design </b>
+                <b className="purple">CSS, JavaScript, TypeScript, and UI/UX design , </b>
               </i>
-              , continually striving for excellence.
+              I constantly strive to push the boundaries of innovation and creativity.
               <br />
               <br />
-              My interests lie in building &nbsp;
+              My interests center around crafting impactful &nbsp;
               <i>
-                <b className="purple">web technologies and designing websites.  </b> 
+                <b className="purple">web technologies and designing user-friendly websites.</b> 
               </i>
               <br />
               <br />
-              I frequently use  
+              Leveraging powerful libraries and frameworks like 
               <i>
                 <b className="purple">
                   {" "}
-                  libraries and frameworks
+                  React.js, Bootstrap, and Next.js, 
                 </b>
               </i>
-              &nbsp; such as 
-              <i>
-                <b className="purple"> React.js and Bootstrap</b>
-              </i>
+             
+                I aim to create seamless, dynamic, and visually appealing digital experiences.
+              
             </p>
           </Col>
           {/* <Col md={4} className="myAvtar">
