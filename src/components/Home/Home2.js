@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />With expertise in
               <i>
-                <b className="purple">CSS, JavaScript, TypeScript, and UI/UX design , </b>
+                <b className="purple"> JavaScript, TypeScript, and UI/UX design , </b>
               </i>
               I constantly strive to push the boundaries of innovation and creativity.
               <br />
@@ -39,10 +39,10 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  React.js, Bootstrap, and Next.js, 
+                  React.js, Tailwind CSS, and Next.js, 
                 </b>
               </i>
-             
+          
                 I aim to create seamless, dynamic, and visually appealing digital experiences.
               
             </p>
