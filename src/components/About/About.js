@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import Image from "../../Assets/image.png";
 import Toolstack from "./Toolstack";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
@@ -30,7 +31,14 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
+
+        <Tilt>
+        <img
+        src={Image}
+        alt="about"
+        className="img-fluid"
+        style={{ maxWidth: "300px", height: "auto" }}/>
+        </Tilt>
           </Col>
         </Row>
         <h1 className="project-heading">

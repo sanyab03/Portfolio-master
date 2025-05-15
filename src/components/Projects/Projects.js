@@ -6,6 +6,7 @@ import Foodfolio from "../../Assets/Projects/foodfolio.png";
 import Movie from "../../Assets/Projects/movie platform.png"
 import Health from "../../Assets/Projects/health dashobard.png"
 import Finance from "../../Assets/Projects/finance yes.png"
+import Summarize from "../../Assets/Projects/summarize.png"
 
 
 function Projects() {
@@ -42,6 +43,17 @@ function Projects() {
               description="
               CineCore is an interactive platform for discovering movies and shows, offering detailed information, trending recommendations, and a seamless browsing experience."
               demoLink="https://cinecore-sanya-bansals-projects.vercel.app/"              
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Summarize}
+              isBlog={false}
+              title="SnapSummary - Ai Summarizer"
+              description="
+              SnapSummary instantly generates concise summaries of any article or webpage, helping you grasp key insights in seconds. Just paste a link, and get the gist fast, clear, and effortless."
+              demoLink="https://snapsummary-six.vercel.app/"              
             />
           </Col>
          

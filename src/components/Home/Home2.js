@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+// import homeLogo from "../../Assets/profile2.jpg";
 
 function Home2() {
   return (
@@ -16,7 +17,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              MY <span className="purple"> QUICK</span> INTRODUCTION
+              ABOUT <span className="purple"> ME</span> 
             </h1>
             <p className="home-about-body">
              
@@ -49,7 +50,7 @@ function Home2() {
           </Col>
           {/* <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={homeLogo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col> */}
         </Row>
@@ -86,6 +87,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+    
   );
 }
 export default Home2;
